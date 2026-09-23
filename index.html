@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Dodger</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Car Dodger</h1>
+
+    <div class="hud">
+      <div class="score-box">
+        <span>Score</span>
+        <strong id="score">0</strong>
+      </div>
+      <div class="score-box">
+        <span>Best</span>
+        <strong id="bestScore">0</strong>
+      </div>
+    </div>
+
+    <canvas id="gameCanvas" width="360" height="640" aria-label="Car game area"></canvas>
+
+    <div class="controls">
+      <button id="startBtn">Start Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
